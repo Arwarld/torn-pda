@@ -28,4 +28,9 @@
     <string name="racing_live_update_status_waiting">Race queue</string>
     <string name="racing_live_update_status_racing">On track</string>
     <string name="racing_live_update_status_finished">Completed</string>
+
+    <!-- Wear OS Complication labels -->
+    <string name="complication_nerve_label">Nerve</string>
+    <string name="complication_energy_label">Energy</string>
+    <string name="complication_happylife_label">Happy Life</string>
 </resources>
