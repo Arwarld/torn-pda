@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<complication-supported-types xmlns:android="http://schemas.android.com/apk/res/android">
+    <complication-type android:name="SHORT_TEXT" />
+    <complication-type android:name="LONG_TEXT" />
+    <complication-type android:name="RANGED_VALUE" />
+</complication-supported-types>
