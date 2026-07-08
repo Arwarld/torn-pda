@@ -86,6 +86,7 @@
                 <data android:pathPattern=".*\\..*\\..*\\.pda" />
                 <data android:pathPattern=".*\\..*\\..*\\..*\\.pda" />
                 <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.pda" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.pda" />
             </intent-filter>
         </activity>
         <provider android:name="com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFileProvider"
