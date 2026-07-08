@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Platzhalter-XML für die Komplikations-Supported-Types.
+       Du kannst hier später das korrekte Format/Elemente für die Wear-Bibliothek einfügen. -->
+  <string name="complication_supported_types_placeholder">SHORT_TEXT,RANGED_VALUE,ICON</string>
+</resources>
