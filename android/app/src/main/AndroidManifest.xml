@@ -86,7 +86,6 @@
                 <data android:pathPattern=".*\\..*\\..*\\.pda" />
                 <data android:pathPattern=".*\\..*\\..*\\..*\\.pda" />
                 <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.pda" />
-                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.pda" />
             </intent-filter>
         </activity>
         <provider android:name="com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFileProvider"
@@ -145,6 +144,7 @@
         <service
             android:name=".NerveComplicationProviderService"
             android:label="@string/complication_nerve_label"
+            android:exported="true"
             android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER">
             <intent-filter>
                 <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST" />
@@ -160,6 +160,7 @@
         <service
             android:name=".EnergyComplicationProviderService"
             android:label="@string/complication_energy_label"
+            android:exported="true"
             android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER">
             <intent-filter>
                 <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST" />
@@ -175,6 +176,7 @@
         <service
             android:name=".HappyLifeComplicationProviderService"
             android:label="@string/complication_happylife_label"
+            android:exported="true"
             android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER">
             <intent-filter>
                 <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST" />
